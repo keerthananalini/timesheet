@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" thread-count="5" parallel="false">
+  
+  <test thread-count="5" name="ChromeTest">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="org.beCognizant.tests.TC001"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="5" name="EdgeTest">
+  <parameter name="browser" value="edge"/>
+    <classes>
+	<class name="org.beCognizant.tests.TC001"/>    
+	</classes>
+ 
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->

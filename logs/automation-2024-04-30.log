@@ -1,0 +1,78 @@
+17:15:52.969 [main] INFO  org.beCognizant.tests.TC001 -  
+17:15:52.991 [main] INFO  org.beCognizant.tests.TC001 - Approved
+17:15:52.997 [main] INFO  org.beCognizant.tests.TC001 - Overdue
+17:15:53.003 [main] INFO  org.beCognizant.tests.TC001 - Partially Approved
+17:15:53.010 [main] INFO  org.beCognizant.tests.TC001 - Pending
+17:15:53.017 [main] INFO  org.beCognizant.tests.TC001 - Saved
+17:15:53.025 [main] INFO  org.beCognizant.tests.TC001 - Sent Back for Revision
+17:15:53.034 [main] INFO  org.beCognizant.tests.TC001 - Submitted for Approval
+17:15:53.034 [main] INFO  org.beCognizant.tests.TC001 - ********Status Validation Started********
+17:16:06.891 [main] INFO  org.beCognizant.tests.TC001 - no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'OK')]"}
+  (Session info: MicrosoftEdge=124.0.2478.67)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [c0b648ae37a036ffc1404bee88afb79d, findElement {using=xpath, value=//span[contains(text(),'OK')]}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 124.0.2478.67, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:54704}, msedge: {msedgedriverVersion: 124.0.2478.67 (d385ef2844e0..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54704/devtoo..., se:cdpVersion: 124.0.2478.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c0b648ae37a036ffc1404bee88afb79d
+17:16:06.903 [main] INFO  org.beCognizant.tests.TC001 - Successful -> No Results Found for 'Partially Approved'
+17:16:25.335 [main] INFO  org.beCognizant.tests.TC001 - no such element: Unable to locate element: {"method":"css selector","selector":".ps_modal_content"}
+  (Session info: MicrosoftEdge=124.0.2478.67)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [05e7c86066f8a36c886a266fd54c3f56, findElement {using=class name, value=ps_modal_content}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 124.0.2478.67, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:55168}, msedge: {msedgedriverVersion: 124.0.2478.67 (d385ef2844e0..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55168/devtoo..., se:cdpVersion: 124.0.2478.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 05e7c86066f8a36c886a266fd54c3f56
+17:16:25.365 [main] INFO  org.beCognizant.tests.TC001 - Successful -> Results Found for 'Approved'
+17:16:39.270 [main] INFO  org.beCognizant.tests.TC001 - no such element: Unable to locate element: {"method":"css selector","selector":".ps_modal_content"}
+  (Session info: MicrosoftEdge=124.0.2478.67)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [c0b648ae37a036ffc1404bee88afb79d, findElement {using=class name, value=ps_modal_content}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 124.0.2478.67, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:54704}, msedge: {msedgedriverVersion: 124.0.2478.67 (d385ef2844e0..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54704/devtoo..., se:cdpVersion: 124.0.2478.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c0b648ae37a036ffc1404bee88afb79d
+17:16:39.285 [main] INFO  org.beCognizant.tests.TC001 - Successful -> Results Found for 'Pending'
+17:16:57.840 [main] INFO  org.beCognizant.tests.TC001 - no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'OK')]"}
+  (Session info: MicrosoftEdge=124.0.2478.67)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [05e7c86066f8a36c886a266fd54c3f56, findElement {using=xpath, value=//span[contains(text(),'OK')]}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 124.0.2478.67, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:55168}, msedge: {msedgedriverVersion: 124.0.2478.67 (d385ef2844e0..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55168/devtoo..., se:cdpVersion: 124.0.2478.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 05e7c86066f8a36c886a266fd54c3f56
+17:16:57.853 [main] INFO  org.beCognizant.tests.TC001 - Successful -> No Results Found for 'Overdue'
+17:17:11.682 [main] INFO  org.beCognizant.tests.TC001 - no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'OK')]"}
+  (Session info: MicrosoftEdge=124.0.2478.67)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [c0b648ae37a036ffc1404bee88afb79d, findElement {using=xpath, value=//span[contains(text(),'OK')]}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 124.0.2478.67, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:54704}, msedge: {msedgedriverVersion: 124.0.2478.67 (d385ef2844e0..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54704/devtoo..., se:cdpVersion: 124.0.2478.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c0b648ae37a036ffc1404bee88afb79d
+17:17:11.696 [main] INFO  org.beCognizant.tests.TC001 - Successful -> No Results Found for 'Saved'
+17:17:30.252 [main] INFO  org.beCognizant.tests.TC001 - no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'OK')]"}
+  (Session info: MicrosoftEdge=124.0.2478.67)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [05e7c86066f8a36c886a266fd54c3f56, findElement {using=xpath, value=//span[contains(text(),'OK')]}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 124.0.2478.67, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:55168}, msedge: {msedgedriverVersion: 124.0.2478.67 (d385ef2844e0..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55168/devtoo..., se:cdpVersion: 124.0.2478.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 05e7c86066f8a36c886a266fd54c3f56
+17:17:30.269 [main] INFO  org.beCognizant.tests.TC001 - Successful -> No Results Found for 'Partially Approved'
+17:17:44.154 [main] INFO  org.beCognizant.tests.TC001 - no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'OK')]"}
+  (Session info: MicrosoftEdge=124.0.2478.67)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [c0b648ae37a036ffc1404bee88afb79d, findElement {using=xpath, value=//span[contains(text(),'OK')]}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 124.0.2478.67, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:54704}, msedge: {msedgedriverVersion: 124.0.2478.67 (d385ef2844e0..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54704/devtoo..., se:cdpVersion: 124.0.2478.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c0b648ae37a036ffc1404bee88afb79d
